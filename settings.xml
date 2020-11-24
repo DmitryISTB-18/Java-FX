@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_261" class="java.beans.XMLDecoder">
+ <object class="sample.Settings" id="Settings0"/>
+<void class="Model.Fish" id="Fish0">
+ <void property="habitatType">
+  <string>Озеро</string>
+ </void>
+ <void property="animalsName">
+  <string>Карась</string>
+ </void>
+</void>
+<void class="Model.Birds" id="Birds0">
+ <void property="relationshipFlight">
+  <boolean>true</boolean>
+ </void>
+ <void property="animalsName">
+  <string>Синица</string>
+ </void>
+</void>
+<void class="sample.Settings" id="Field0" method="getField">
+ <string>ani</string>
+ <void id="ArrayList0" method="get">
+  <object idref="Settings0"/>
+  <void method="add">
+   <object idref="Birds0"/>
+  </void>
+  <void method="add">
+   <object idref="Fish0"/>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList0"/>
+</java>
